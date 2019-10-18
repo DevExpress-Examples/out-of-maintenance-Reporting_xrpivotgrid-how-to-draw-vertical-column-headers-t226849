@@ -29,29 +29,50 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            DevExpress.DataAccess.Sql.TableQuery tableQuery1 = new DevExpress.DataAccess.Sql.TableQuery();
-            DevExpress.DataAccess.Sql.TableInfo tableInfo1 = new DevExpress.DataAccess.Sql.TableInfo();
-            DevExpress.DataAccess.Sql.ColumnInfo columnInfo1 = new DevExpress.DataAccess.Sql.ColumnInfo();
-            DevExpress.DataAccess.Sql.ColumnInfo columnInfo2 = new DevExpress.DataAccess.Sql.ColumnInfo();
-            DevExpress.DataAccess.Sql.ColumnInfo columnInfo3 = new DevExpress.DataAccess.Sql.ColumnInfo();
-            DevExpress.DataAccess.Sql.ColumnInfo columnInfo4 = new DevExpress.DataAccess.Sql.ColumnInfo();
-            DevExpress.DataAccess.Sql.ColumnInfo columnInfo5 = new DevExpress.DataAccess.Sql.ColumnInfo();
-            DevExpress.DataAccess.Sql.ColumnInfo columnInfo6 = new DevExpress.DataAccess.Sql.ColumnInfo();
-            DevExpress.DataAccess.Sql.ColumnInfo columnInfo7 = new DevExpress.DataAccess.Sql.ColumnInfo();
-            DevExpress.DataAccess.Sql.ColumnInfo columnInfo8 = new DevExpress.DataAccess.Sql.ColumnInfo();
-            DevExpress.DataAccess.Sql.ColumnInfo columnInfo9 = new DevExpress.DataAccess.Sql.ColumnInfo();
-            DevExpress.DataAccess.Sql.ColumnInfo columnInfo10 = new DevExpress.DataAccess.Sql.ColumnInfo();
-            DevExpress.DataAccess.Sql.TableQuery tableQuery2 = new DevExpress.DataAccess.Sql.TableQuery();
-            DevExpress.DataAccess.Sql.TableInfo tableInfo2 = new DevExpress.DataAccess.Sql.TableInfo();
-            DevExpress.DataAccess.Sql.ColumnInfo columnInfo11 = new DevExpress.DataAccess.Sql.ColumnInfo();
-            DevExpress.DataAccess.Sql.ColumnInfo columnInfo12 = new DevExpress.DataAccess.Sql.ColumnInfo();
-            DevExpress.DataAccess.Sql.ColumnInfo columnInfo13 = new DevExpress.DataAccess.Sql.ColumnInfo();
-            DevExpress.DataAccess.Sql.ColumnInfo columnInfo14 = new DevExpress.DataAccess.Sql.ColumnInfo();
-            DevExpress.DataAccess.Sql.ColumnInfo columnInfo15 = new DevExpress.DataAccess.Sql.ColumnInfo();
-            DevExpress.DataAccess.Sql.ColumnInfo columnInfo16 = new DevExpress.DataAccess.Sql.ColumnInfo();
-            DevExpress.DataAccess.Sql.ColumnInfo columnInfo17 = new DevExpress.DataAccess.Sql.ColumnInfo();
+            DevExpress.DataAccess.Sql.SelectQuery selectQuery1 = new DevExpress.DataAccess.Sql.SelectQuery();
+            DevExpress.DataAccess.Sql.Column column1 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression1 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Table table1 = new DevExpress.DataAccess.Sql.Table();
+            DevExpress.DataAccess.Sql.Column column2 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression2 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column3 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression3 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column4 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression4 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column5 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression5 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column6 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression6 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column7 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression7 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column8 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression8 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column9 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression9 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column10 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression10 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.SelectQuery selectQuery2 = new DevExpress.DataAccess.Sql.SelectQuery();
+            DevExpress.DataAccess.Sql.Column column11 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression11 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Table table2 = new DevExpress.DataAccess.Sql.Table();
+            DevExpress.DataAccess.Sql.Column column12 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression12 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column13 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression13 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column14 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression14 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column15 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression15 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column16 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression16 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column17 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression17 = new DevExpress.DataAccess.Sql.ColumnExpression();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(XtraReport1));
-            this.sqlDataSource1 = new DevExpress.DataAccess.Sql.SqlDataSource("localhost_NorthwindConnection");
+            DevExpress.XtraReports.UI.CrossTab.CrossTabColumnDefinition crossTabColumnDefinition1 = new DevExpress.XtraReports.UI.CrossTab.CrossTabColumnDefinition(104F);
+            DevExpress.XtraReports.UI.CrossTab.CrossTabColumnField crossTabColumnField1 = new DevExpress.XtraReports.UI.CrossTab.CrossTabColumnField();
+            DevExpress.XtraReports.UI.CrossTab.CrossTabDataField crossTabDataField1 = new DevExpress.XtraReports.UI.CrossTab.CrossTabDataField();
+            DevExpress.XtraReports.UI.CrossTab.CrossTabRowField crossTabRowField1 = new DevExpress.XtraReports.UI.CrossTab.CrossTabRowField();
+            this.sqlDataSource1 = new DevExpress.DataAccess.Sql.SqlDataSource(this.components);
             this.Detail = new DevExpress.XtraReports.UI.DetailBand();
             this.formattingRule1 = new DevExpress.XtraReports.UI.FormattingRule();
             this.TopMargin = new DevExpress.XtraReports.UI.TopMarginBand();
@@ -69,63 +90,101 @@
             this.PageInfo = new DevExpress.XtraReports.UI.XRControlStyle();
             this.DataField = new DevExpress.XtraReports.UI.XRControlStyle();
             this.ReportFooter = new DevExpress.XtraReports.UI.ReportFooterBand();
-            this.xrPivotGrid1 = new DevExpress.XtraReports.UI.XRPivotGrid();
-            this.fieldOrderID1 = new DevExpress.XtraReports.UI.PivotGrid.XRPivotGridField();
-            this.fieldOrderDate1 = new DevExpress.XtraReports.UI.PivotGrid.XRPivotGridField();
-            this.fieldShipRegion1 = new DevExpress.XtraReports.UI.PivotGrid.XRPivotGridField();
             this.calculatedField1 = new DevExpress.XtraReports.UI.CalculatedField();
+            this.xrCrossTab1 = new DevExpress.XtraReports.UI.XRCrossTab();
+            this.xrCrossTabCell1 = new DevExpress.XtraReports.UI.CrossTab.XRCrossTabCell();
+            this.xrCrossTabCell2 = new DevExpress.XtraReports.UI.CrossTab.XRCrossTabCell();
+            this.xrCrossTabCell3 = new DevExpress.XtraReports.UI.CrossTab.XRCrossTabCell();
+            this.xrCrossTabCell4 = new DevExpress.XtraReports.UI.CrossTab.XRCrossTabCell();
+            this.xrCrossTabCell5 = new DevExpress.XtraReports.UI.CrossTab.XRCrossTabCell();
+            this.xrCrossTabCell6 = new DevExpress.XtraReports.UI.CrossTab.XRCrossTabCell();
+            this.xrCrossTabCell7 = new DevExpress.XtraReports.UI.CrossTab.XRCrossTabCell();
+            this.xrCrossTabCell8 = new DevExpress.XtraReports.UI.CrossTab.XRCrossTabCell();
+            this.xrCrossTabCell9 = new DevExpress.XtraReports.UI.CrossTab.XRCrossTabCell();
+            ((System.ComponentModel.ISupportInitialize)(this.xrCrossTab1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             // 
             // sqlDataSource1
             // 
+            this.sqlDataSource1.ConnectionName = "localhost_NorthwindConnection";
             this.sqlDataSource1.Name = "sqlDataSource1";
-            tableQuery1.Name = "Products";
-            tableInfo1.Name = "Products";
-            columnInfo1.Name = "ProductID";
-            columnInfo2.Name = "ProductName";
-            columnInfo3.Name = "SupplierID";
-            columnInfo4.Name = "CategoryID";
-            columnInfo5.Name = "QuantityPerUnit";
-            columnInfo6.Name = "UnitPrice";
-            columnInfo7.Name = "UnitsInStock";
-            columnInfo8.Name = "UnitsOnOrder";
-            columnInfo9.Name = "ReorderLevel";
-            columnInfo10.Name = "Discontinued";
-            tableInfo1.SelectedColumns.AddRange(new DevExpress.DataAccess.Sql.ColumnInfo[] {
-            columnInfo1,
-            columnInfo2,
-            columnInfo3,
-            columnInfo4,
-            columnInfo5,
-            columnInfo6,
-            columnInfo7,
-            columnInfo8,
-            columnInfo9,
-            columnInfo10});
-            tableQuery1.Tables.AddRange(new DevExpress.DataAccess.Sql.TableInfo[] {
-            tableInfo1});
-            tableQuery2.Name = "Orders";
-            tableInfo2.Name = "Orders";
-            columnInfo11.Name = "OrderID";
-            columnInfo12.Name = "OrderDate";
-            columnInfo13.Name = "ShipAddress";
-            columnInfo14.Name = "ShipCity";
-            columnInfo15.Name = "ShipRegion";
-            columnInfo16.Name = "ShipPostalCode";
-            columnInfo17.Name = "ShipCountry";
-            tableInfo2.SelectedColumns.AddRange(new DevExpress.DataAccess.Sql.ColumnInfo[] {
-            columnInfo11,
-            columnInfo12,
-            columnInfo13,
-            columnInfo14,
-            columnInfo15,
-            columnInfo16,
-            columnInfo17});
-            tableQuery2.Tables.AddRange(new DevExpress.DataAccess.Sql.TableInfo[] {
-            tableInfo2});
+            columnExpression1.ColumnName = "ProductID";
+            table1.Name = "Products";
+            columnExpression1.Table = table1;
+            column1.Expression = columnExpression1;
+            columnExpression2.ColumnName = "ProductName";
+            columnExpression2.Table = table1;
+            column2.Expression = columnExpression2;
+            columnExpression3.ColumnName = "SupplierID";
+            columnExpression3.Table = table1;
+            column3.Expression = columnExpression3;
+            columnExpression4.ColumnName = "CategoryID";
+            columnExpression4.Table = table1;
+            column4.Expression = columnExpression4;
+            columnExpression5.ColumnName = "QuantityPerUnit";
+            columnExpression5.Table = table1;
+            column5.Expression = columnExpression5;
+            columnExpression6.ColumnName = "UnitPrice";
+            columnExpression6.Table = table1;
+            column6.Expression = columnExpression6;
+            columnExpression7.ColumnName = "UnitsInStock";
+            columnExpression7.Table = table1;
+            column7.Expression = columnExpression7;
+            columnExpression8.ColumnName = "UnitsOnOrder";
+            columnExpression8.Table = table1;
+            column8.Expression = columnExpression8;
+            columnExpression9.ColumnName = "ReorderLevel";
+            columnExpression9.Table = table1;
+            column9.Expression = columnExpression9;
+            columnExpression10.ColumnName = "Discontinued";
+            columnExpression10.Table = table1;
+            column10.Expression = columnExpression10;
+            selectQuery1.Columns.Add(column1);
+            selectQuery1.Columns.Add(column2);
+            selectQuery1.Columns.Add(column3);
+            selectQuery1.Columns.Add(column4);
+            selectQuery1.Columns.Add(column5);
+            selectQuery1.Columns.Add(column6);
+            selectQuery1.Columns.Add(column7);
+            selectQuery1.Columns.Add(column8);
+            selectQuery1.Columns.Add(column9);
+            selectQuery1.Columns.Add(column10);
+            selectQuery1.Name = "Products";
+            selectQuery1.Tables.Add(table1);
+            columnExpression11.ColumnName = "OrderID";
+            table2.Name = "Orders";
+            columnExpression11.Table = table2;
+            column11.Expression = columnExpression11;
+            columnExpression12.ColumnName = "OrderDate";
+            columnExpression12.Table = table2;
+            column12.Expression = columnExpression12;
+            columnExpression13.ColumnName = "ShipAddress";
+            columnExpression13.Table = table2;
+            column13.Expression = columnExpression13;
+            columnExpression14.ColumnName = "ShipCity";
+            columnExpression14.Table = table2;
+            column14.Expression = columnExpression14;
+            columnExpression15.ColumnName = "ShipRegion";
+            columnExpression15.Table = table2;
+            column15.Expression = columnExpression15;
+            columnExpression16.ColumnName = "ShipPostalCode";
+            columnExpression16.Table = table2;
+            column16.Expression = columnExpression16;
+            columnExpression17.ColumnName = "ShipCountry";
+            columnExpression17.Table = table2;
+            column17.Expression = columnExpression17;
+            selectQuery2.Columns.Add(column11);
+            selectQuery2.Columns.Add(column12);
+            selectQuery2.Columns.Add(column13);
+            selectQuery2.Columns.Add(column14);
+            selectQuery2.Columns.Add(column15);
+            selectQuery2.Columns.Add(column16);
+            selectQuery2.Columns.Add(column17);
+            selectQuery2.Name = "Orders";
+            selectQuery2.Tables.Add(table2);
             this.sqlDataSource1.Queries.AddRange(new DevExpress.DataAccess.Sql.SqlQuery[] {
-            tableQuery1,
-            tableQuery2});
+            selectQuery1,
+            selectQuery2});
             this.sqlDataSource1.ResultSchemaSerializable = resources.GetString("sqlDataSource1.ResultSchemaSerializable");
             // 
             // Detail
@@ -138,9 +197,6 @@
             // formattingRule1
             // 
             this.formattingRule1.Condition = "[DataSource.CurrentRowIndex]==[DataSource.RowCount]-1";
-            // 
-            // 
-            // 
             this.formattingRule1.Formatting.Visible = DevExpress.Utils.DefaultBoolean.False;
             this.formattingRule1.Name = "formattingRule1";
             // 
@@ -256,59 +312,193 @@
             // ReportFooter
             // 
             this.ReportFooter.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
-            this.xrPivotGrid1});
-            this.ReportFooter.HeightF = 148.3333F;
+            this.xrCrossTab1});
+            this.ReportFooter.HeightF = 134F;
             this.ReportFooter.Name = "ReportFooter";
-            // 
-            // xrPivotGrid1
-            // 
-            this.xrPivotGrid1.DataMember = "Orders";
-            this.xrPivotGrid1.DataSource = this.sqlDataSource1;
-            this.xrPivotGrid1.Fields.AddRange(new DevExpress.XtraReports.UI.PivotGrid.XRPivotGridField[] {
-            this.fieldOrderID1,
-            this.fieldOrderDate1,
-            this.fieldShipRegion1});
-            this.xrPivotGrid1.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
-            this.xrPivotGrid1.Name = "xrPivotGrid1";
-            this.xrPivotGrid1.OptionsPrint.FilterSeparatorBarPadding = 3;
-            this.xrPivotGrid1.SizeF = new System.Drawing.SizeF(900F, 148.3333F);
-            this.xrPivotGrid1.PrintFieldValue += new System.EventHandler<DevExpress.XtraReports.UI.PivotGrid.CustomExportFieldValueEventArgs>(this.xrPivotGrid1_PrintFieldValue);
-            // 
-            // fieldOrderID1
-            // 
-            this.fieldOrderID1.Area = DevExpress.XtraPivotGrid.PivotArea.DataArea;
-            this.fieldOrderID1.AreaIndex = 0;
-            this.fieldOrderID1.Caption = "Order ID";
-            this.fieldOrderID1.FieldName = "OrderID";
-            this.fieldOrderID1.Name = "fieldOrderID1";
-            // 
-            // fieldOrderDate1
-            // 
-            this.fieldOrderDate1.Area = DevExpress.XtraPivotGrid.PivotArea.ColumnArea;
-            this.fieldOrderDate1.AreaIndex = 0;
-            this.fieldOrderDate1.Caption = "Order Date";
-            this.fieldOrderDate1.ColumnValueLineCount = 5;
-            this.fieldOrderDate1.FieldName = "OrderDate";
-            this.fieldOrderDate1.GroupInterval = DevExpress.XtraPivotGrid.PivotGroupInterval.DateMonthYear;
-            this.fieldOrderDate1.Name = "fieldOrderDate1";
-            this.fieldOrderDate1.RowValueLineCount = 5;
-            this.fieldOrderDate1.UnboundFieldName = "fieldOrderDate1";
-            this.fieldOrderDate1.ValueFormat.FormatString = "MMM, yyyy";
-            this.fieldOrderDate1.ValueFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
-            this.fieldOrderDate1.Width = 50;
-            // 
-            // fieldShipRegion1
-            // 
-            this.fieldShipRegion1.Area = DevExpress.XtraPivotGrid.PivotArea.RowArea;
-            this.fieldShipRegion1.AreaIndex = 0;
-            this.fieldShipRegion1.Caption = "Ship Region";
-            this.fieldShipRegion1.FieldName = "ShipRegion";
-            this.fieldShipRegion1.Name = "fieldShipRegion1";
             // 
             // calculatedField1
             // 
             this.calculatedField1.DataMember = "Orders";
             this.calculatedField1.Name = "calculatedField1";
+            // 
+            // xrCrossTab1
+            // 
+            this.xrCrossTab1.Cells.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+            this.xrCrossTabCell1,
+            this.xrCrossTabCell2,
+            this.xrCrossTabCell3,
+            this.xrCrossTabCell4,
+            this.xrCrossTabCell5,
+            this.xrCrossTabCell6,
+            this.xrCrossTabCell7,
+            this.xrCrossTabCell8,
+            this.xrCrossTabCell9});
+            crossTabColumnDefinition1.AutoWidthMode = DevExpress.XtraReports.UI.AutoSizeMode.ShrinkAndGrow;
+            this.xrCrossTab1.ColumnDefinitions.AddRange(new DevExpress.XtraReports.UI.CrossTab.CrossTabColumnDefinition[] {
+            new DevExpress.XtraReports.UI.CrossTab.CrossTabColumnDefinition(104F),
+            crossTabColumnDefinition1,
+            new DevExpress.XtraReports.UI.CrossTab.CrossTabColumnDefinition(104F)});
+            crossTabColumnField1.FieldName = "OrderDate";
+            crossTabColumnField1.GroupInterval = DevExpress.XtraReports.UI.CrossTab.GroupInterval.DateMonthYear;
+            this.xrCrossTab1.ColumnFields.AddRange(new DevExpress.XtraReports.UI.CrossTab.CrossTabColumnField[] {
+            crossTabColumnField1});
+            crossTabDataField1.FieldName = "OrderID";
+            this.xrCrossTab1.DataFields.AddRange(new DevExpress.XtraReports.UI.CrossTab.CrossTabDataField[] {
+            crossTabDataField1});
+            this.xrCrossTab1.DataMember = "Orders";
+            this.xrCrossTab1.DataSource = this.sqlDataSource1;
+            this.xrCrossTab1.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
+            this.xrCrossTab1.Name = "xrCrossTab1";
+            this.xrCrossTab1.OriginalPivotGridLayout = resources.GetString("xrCrossTab1.OriginalPivotGridLayout");
+            this.xrCrossTab1.PrintOptions.PrintTotalsForSingleValues = false;
+            this.xrCrossTab1.RowDefinitions.AddRange(new DevExpress.XtraReports.UI.CrossTab.CrossTabRowDefinition[] {
+            new DevExpress.XtraReports.UI.CrossTab.CrossTabRowDefinition(84F),
+            new DevExpress.XtraReports.UI.CrossTab.CrossTabRowDefinition(25F),
+            new DevExpress.XtraReports.UI.CrossTab.CrossTabRowDefinition(25F)});
+            crossTabRowField1.FieldName = "ShipRegion";
+            this.xrCrossTab1.RowFields.AddRange(new DevExpress.XtraReports.UI.CrossTab.CrossTabRowField[] {
+            crossTabRowField1});
+            this.xrCrossTab1.SizeF = new System.Drawing.SizeF(312F, 134F);
+            // 
+            // xrCrossTabCell1
+            // 
+            this.xrCrossTabCell1.BackColor = System.Drawing.SystemColors.Control;
+            this.xrCrossTabCell1.BorderColor = System.Drawing.SystemColors.ControlDark;
+            this.xrCrossTabCell1.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
+            | DevExpress.XtraPrinting.BorderSide.Right) 
+            | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrCrossTabCell1.BorderWidth = 1F;
+            this.xrCrossTabCell1.ColumnIndex = 0;
+            this.xrCrossTabCell1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.xrCrossTabCell1.Name = "xrCrossTabCell1";
+            this.xrCrossTabCell1.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
+            this.xrCrossTabCell1.RowIndex = 0;
+            this.xrCrossTabCell1.Text = "Ship Region";
+            this.xrCrossTabCell1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // xrCrossTabCell2
+            // 
+            this.xrCrossTabCell2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.xrCrossTabCell2.BorderColor = System.Drawing.SystemColors.ControlDark;
+            this.xrCrossTabCell2.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
+            | DevExpress.XtraPrinting.BorderSide.Right) 
+            | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrCrossTabCell2.BorderWidth = 1F;
+            this.xrCrossTabCell2.ColumnIndex = 1;
+            this.xrCrossTabCell2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.xrCrossTabCell2.Name = "xrCrossTabCell2";
+            this.xrCrossTabCell2.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
+            this.xrCrossTabCell2.RowIndex = 1;
+            this.xrCrossTabCell2.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            // 
+            // xrCrossTabCell3
+            // 
+            this.xrCrossTabCell3.Angle = 90F;
+            this.xrCrossTabCell3.BackColor = System.Drawing.SystemColors.Control;
+            this.xrCrossTabCell3.BorderColor = System.Drawing.SystemColors.ControlDark;
+            this.xrCrossTabCell3.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
+            | DevExpress.XtraPrinting.BorderSide.Right) 
+            | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrCrossTabCell3.BorderWidth = 1F;
+            this.xrCrossTabCell3.ColumnIndex = 1;
+            this.xrCrossTabCell3.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.xrCrossTabCell3.Name = "xrCrossTabCell3";
+            this.xrCrossTabCell3.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
+            this.xrCrossTabCell3.RowIndex = 0;
+            this.xrCrossTabCell3.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.xrCrossTabCell3.TextFormatString = "{0:MMM, yyyy}";
+            // 
+            // xrCrossTabCell4
+            // 
+            this.xrCrossTabCell4.BackColor = System.Drawing.SystemColors.Control;
+            this.xrCrossTabCell4.BorderColor = System.Drawing.SystemColors.ControlDark;
+            this.xrCrossTabCell4.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
+            | DevExpress.XtraPrinting.BorderSide.Right) 
+            | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrCrossTabCell4.BorderWidth = 1F;
+            this.xrCrossTabCell4.ColumnIndex = 0;
+            this.xrCrossTabCell4.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.xrCrossTabCell4.Name = "xrCrossTabCell4";
+            this.xrCrossTabCell4.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
+            this.xrCrossTabCell4.RowIndex = 1;
+            this.xrCrossTabCell4.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // xrCrossTabCell5
+            // 
+            this.xrCrossTabCell5.BackColor = System.Drawing.SystemColors.Control;
+            this.xrCrossTabCell5.BorderColor = System.Drawing.SystemColors.ControlDark;
+            this.xrCrossTabCell5.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
+            | DevExpress.XtraPrinting.BorderSide.Right) 
+            | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrCrossTabCell5.BorderWidth = 1F;
+            this.xrCrossTabCell5.ColumnIndex = 2;
+            this.xrCrossTabCell5.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.xrCrossTabCell5.Name = "xrCrossTabCell5";
+            this.xrCrossTabCell5.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
+            this.xrCrossTabCell5.RowIndex = 0;
+            this.xrCrossTabCell5.Text = "Grand Total";
+            this.xrCrossTabCell5.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // xrCrossTabCell6
+            // 
+            this.xrCrossTabCell6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.xrCrossTabCell6.BorderColor = System.Drawing.SystemColors.ControlDark;
+            this.xrCrossTabCell6.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
+            | DevExpress.XtraPrinting.BorderSide.Right) 
+            | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrCrossTabCell6.BorderWidth = 1F;
+            this.xrCrossTabCell6.ColumnIndex = 2;
+            this.xrCrossTabCell6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.xrCrossTabCell6.Name = "xrCrossTabCell6";
+            this.xrCrossTabCell6.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
+            this.xrCrossTabCell6.RowIndex = 1;
+            this.xrCrossTabCell6.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            // 
+            // xrCrossTabCell7
+            // 
+            this.xrCrossTabCell7.BackColor = System.Drawing.SystemColors.Control;
+            this.xrCrossTabCell7.BorderColor = System.Drawing.SystemColors.ControlDark;
+            this.xrCrossTabCell7.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
+            | DevExpress.XtraPrinting.BorderSide.Right) 
+            | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrCrossTabCell7.BorderWidth = 1F;
+            this.xrCrossTabCell7.ColumnIndex = 0;
+            this.xrCrossTabCell7.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.xrCrossTabCell7.Name = "xrCrossTabCell7";
+            this.xrCrossTabCell7.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
+            this.xrCrossTabCell7.RowIndex = 2;
+            this.xrCrossTabCell7.Text = "Grand Total";
+            this.xrCrossTabCell7.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // xrCrossTabCell8
+            // 
+            this.xrCrossTabCell8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.xrCrossTabCell8.BorderColor = System.Drawing.SystemColors.ControlDark;
+            this.xrCrossTabCell8.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
+            | DevExpress.XtraPrinting.BorderSide.Right) 
+            | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrCrossTabCell8.BorderWidth = 1F;
+            this.xrCrossTabCell8.ColumnIndex = 1;
+            this.xrCrossTabCell8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.xrCrossTabCell8.Name = "xrCrossTabCell8";
+            this.xrCrossTabCell8.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
+            this.xrCrossTabCell8.RowIndex = 2;
+            this.xrCrossTabCell8.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            // 
+            // xrCrossTabCell9
+            // 
+            this.xrCrossTabCell9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.xrCrossTabCell9.BorderColor = System.Drawing.SystemColors.ControlDark;
+            this.xrCrossTabCell9.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
+            | DevExpress.XtraPrinting.BorderSide.Right) 
+            | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrCrossTabCell9.BorderWidth = 1F;
+            this.xrCrossTabCell9.ColumnIndex = 2;
+            this.xrCrossTabCell9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.xrCrossTabCell9.Name = "xrCrossTabCell9";
+            this.xrCrossTabCell9.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
+            this.xrCrossTabCell9.RowIndex = 2;
+            this.xrCrossTabCell9.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
             // 
             // XtraReport1
             // 
@@ -321,8 +511,6 @@
             this.calculatedField1});
             this.DataMember = "Orders";
             this.DataSource = this.sqlDataSource1;
-            this.FormattingRuleSheet.AddRange(new DevExpress.XtraReports.UI.FormattingRule[] {
-            this.formattingRule1});
             this.Landscape = true;
             this.Margins = new System.Drawing.Printing.Margins(100, 100, 48, 49);
             this.PageHeight = 850;
@@ -332,7 +520,9 @@
             this.FieldCaption,
             this.PageInfo,
             this.DataField});
-            this.Version = "15.1";
+            this.Version = "19.2";
+            this.VerticalContentSplitting = DevExpress.XtraPrinting.VerticalContentSplitting.Smart;
+            ((System.ComponentModel.ISupportInitialize)(this.xrCrossTab1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
 
         }
@@ -358,9 +548,15 @@
         private DevExpress.XtraReports.UI.ReportFooterBand ReportFooter;
         private DevExpress.XtraReports.UI.FormattingRule formattingRule1;
         private DevExpress.XtraReports.UI.CalculatedField calculatedField1;
-        private DevExpress.XtraReports.UI.XRPivotGrid xrPivotGrid1;
-        private DevExpress.XtraReports.UI.PivotGrid.XRPivotGridField fieldOrderID1;
-        private DevExpress.XtraReports.UI.PivotGrid.XRPivotGridField fieldOrderDate1;
-        private DevExpress.XtraReports.UI.PivotGrid.XRPivotGridField fieldShipRegion1;
+        private DevExpress.XtraReports.UI.XRCrossTab xrCrossTab1;
+        private DevExpress.XtraReports.UI.CrossTab.XRCrossTabCell xrCrossTabCell1;
+        private DevExpress.XtraReports.UI.CrossTab.XRCrossTabCell xrCrossTabCell2;
+        private DevExpress.XtraReports.UI.CrossTab.XRCrossTabCell xrCrossTabCell3;
+        private DevExpress.XtraReports.UI.CrossTab.XRCrossTabCell xrCrossTabCell4;
+        private DevExpress.XtraReports.UI.CrossTab.XRCrossTabCell xrCrossTabCell5;
+        private DevExpress.XtraReports.UI.CrossTab.XRCrossTabCell xrCrossTabCell6;
+        private DevExpress.XtraReports.UI.CrossTab.XRCrossTabCell xrCrossTabCell7;
+        private DevExpress.XtraReports.UI.CrossTab.XRCrossTabCell xrCrossTabCell8;
+        private DevExpress.XtraReports.UI.CrossTab.XRCrossTabCell xrCrossTabCell9;
     }
 }

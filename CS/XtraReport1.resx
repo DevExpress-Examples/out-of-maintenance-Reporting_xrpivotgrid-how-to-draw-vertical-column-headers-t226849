@@ -121,6 +121,34 @@
     <value>17, 17</value>
   </metadata>
   <data name="sqlDataSource1.ResultSchemaSerializable" xml:space="preserve">
-    <value>PERhdGFTZXQgTmFtZT0ic3FsRGF0YVNvdXJjZTEiPjxWaWV3IE5hbWU9Ik9yZGVycyI+PEZpZWxkIE5hbWU9Ik9yZGVySUQiIFR5cGU9IkludDMyIiAvPjxGaWVsZCBOYW1lPSJPcmRlckRhdGUiIFR5cGU9IkRhdGVUaW1lIiAvPjxGaWVsZCBOYW1lPSJTaGlwQWRkcmVzcyIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJTaGlwQ2l0eSIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJTaGlwUmVnaW9uIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IlNoaXBQb3N0YWxDb2RlIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IlNoaXBDb3VudHJ5IiBUeXBlPSJTdHJpbmciIC8+PC9WaWV3PjxWaWV3IE5hbWU9IlByb2R1Y3RzIj48RmllbGQgTmFtZT0iUHJvZHVjdElEIiBUeXBlPSJJbnQzMiIgLz48RmllbGQgTmFtZT0iUHJvZHVjdE5hbWUiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iU3VwcGxpZXJJRCIgVHlwZT0iSW50MzIiIC8+PEZpZWxkIE5hbWU9IkNhdGVnb3J5SUQiIFR5cGU9IkludDMyIiAvPjxGaWVsZCBOYW1lPSJRdWFudGl0eVBlclVuaXQiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iVW5pdFByaWNlIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJVbml0c0luU3RvY2siIFR5cGU9IkludDE2IiAvPjxGaWVsZCBOYW1lPSJVbml0c09uT3JkZXIiIFR5cGU9IkludDE2IiAvPjxGaWVsZCBOYW1lPSJSZW9yZGVyTGV2ZWwiIFR5cGU9IkludDE2IiAvPjxGaWVsZCBOYW1lPSJEaXNjb250aW51ZWQiIFR5cGU9IkJvb2xlYW4iIC8+PC9WaWV3PjwvRGF0YVNldD4=</value>
+    <value>PERhdGFTZXQgTmFtZT0ic3FsRGF0YVNvdXJjZTEiPjxWaWV3IE5hbWU9Ik9yZGVycyI+PEZpZWxkIE5hbWU9Ik9yZGVySUQiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9Ik9yZGVyRGF0ZSIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iU2hpcEFkZHJlc3MiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IlNoaXBDaXR5IiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJTaGlwUmVnaW9uIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJTaGlwUG9zdGFsQ29kZSIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iU2hpcENvdW50cnkiIFR5cGU9IlVua25vd24iIC8+PC9WaWV3PjxWaWV3IE5hbWU9IlByb2R1Y3RzIj48RmllbGQgTmFtZT0iUHJvZHVjdElEIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJQcm9kdWN0TmFtZSIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iU3VwcGxpZXJJRCIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQ2F0ZWdvcnlJRCIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iUXVhbnRpdHlQZXJVbml0IiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJVbml0UHJpY2UiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IlVuaXRzSW5TdG9jayIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iVW5pdHNPbk9yZGVyIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJSZW9yZGVyTGV2ZWwiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkRpc2NvbnRpbnVlZCIgVHlwZT0iVW5rbm93biIgLz48L1ZpZXc+PC9EYXRhU2V0Pg==</value>
+  </data>
+  <data name="xrCrossTab1.OriginalPivotGridLayout" xml:space="preserve">
+    <value>﻿&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;XRControlSerializer SerializerVersion="19.2.2.0" Ref="0"&gt;
+  &lt;Controls&gt;
+    &lt;Item1 Ref="1" ControlType="XRPivotGrid" Name="xrPivotGrid1" SizeF="900,148.3333" LocationFloat="0, 0"&gt;
+      &lt;OptionsPrint Ref="2" UsePrintAppearance="true" FilterSeparatorBarPadding="3" /&gt;
+      &lt;OptionsView Ref="3" /&gt;
+      &lt;Fields&gt;
+        &lt;Item1 Ref="4" FieldName="OrderID" Name="fieldOrderID1" Area="DataArea" Caption="Order ID" Index="0" AreaIndex="0" MinWidth="20" Width="100"&gt;
+          &lt;FilterValues Ref="5" /&gt;
+          &lt;SummaryFilter Ref="6" /&gt;
+        &lt;/Item1&gt;
+        &lt;Item2 Ref="7" FieldName="OrderDate" Name="fieldOrderDate1" Area="ColumnArea" GroupInterval="DateMonthYear" UnboundFieldName="fieldOrderDate1" Caption="Order Date" Index="1" ColumnValueLineCount="5" RowValueLineCount="5" AreaIndex="0" MinWidth="20" Width="50"&gt;
+          &lt;FilterValues Ref="8" /&gt;
+          &lt;ValueFormat Ref="9" FormatString="MMM, yyyy" FormatType="DateTime" /&gt;
+          &lt;SummaryFilter Ref="10" /&gt;
+        &lt;/Item2&gt;
+        &lt;Item3 Ref="11" FieldName="ShipRegion" Name="fieldShipRegion1" Area="RowArea" Caption="Ship Region" Index="2" AreaIndex="0" MinWidth="20" Width="100"&gt;
+          &lt;FilterValues Ref="12" /&gt;
+          &lt;SummaryFilter Ref="13" /&gt;
+        &lt;/Item3&gt;
+      &lt;/Fields&gt;
+      &lt;Prefilter Ref="14" /&gt;
+      &lt;OptionsChartDataSource Ref="15" /&gt;
+    &lt;/Item1&gt;
+  &lt;/Controls&gt;
+&lt;/XRControlSerializer&gt;</value>
   </data>
 </root>

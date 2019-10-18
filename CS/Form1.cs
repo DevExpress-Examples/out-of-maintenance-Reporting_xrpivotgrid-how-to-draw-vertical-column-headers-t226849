@@ -9,22 +9,19 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace WindowsFormsApplication1
-{
-    public partial class Form1 : Form
-    {
-        public Form1()
-        {
+namespace WindowsFormsApplication1 {
+    public partial class Form1 : Form {
+        public Form1() {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            XtraReport1 report = new XtraReport1();
-            ReportPrintTool tool = new ReportPrintTool(report);
-            tool.ShowPreviewDialog();
+        private void button1_Click(object sender, EventArgs e) {
+            using (XtraReport1 report = new XtraReport1())
+            using (ReportPrintTool tool = new ReportPrintTool(report)) {
+                tool.ShowPreviewDialog();
+            }
         }
 
-      
+
     }
 }

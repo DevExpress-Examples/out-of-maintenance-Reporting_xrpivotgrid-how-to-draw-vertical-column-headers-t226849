@@ -1,16 +1,9 @@
-<!-- default file list -->
 *Files to look at*:
 
 * [Form1.cs](./CS/Form1.cs) (VB: [Form1.vb](./VB/Form1.vb))
-* [Program.cs](./CS/Program.cs) (VB: [Program.vb](./VB/Program.vb))
-* [XtraReport1.cs](./CS/XtraReport1.cs) (VB: [XtraReport1.vb](./VB/XtraReport1.vb))
-<!-- default file list end -->
-# XRPivotGrid - How to draw vertical column headers
 
+#Cross Tab Report - How to draw vertical column headers
 
-<p>This example illustrates how to use the <a href="https://documentation.devexpress.com/#XtraReports/DevExpressXtraReportsUIXRPivotGrid_PrintFieldValuetopic">XRPivotGrid.PrintFieldValue</a> event handler to render vertical headers in the XRPivotGrid control.</p>
-<p>In this sample, the default TextBrick is substituted with LabelBrick and the <a href="https://documentation.devexpress.com/#CoreLibraries/DevExpressXtraPrintingLabelBrick_Angletopic">LabelBrick.Angle</a> property is set to rotate text.</p>
+The **XRCrossTab** control that is available starting with version 19.2 supports this functionality out of the box. Use the header cells'  [Angle](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.UI.CrossTab.XRCrossTabCell.Angle?v=19.2) property to rotate the text in the cells.
 
-<br/>
-
-
+If you use a legacy **XRPivotGrid** control use the [XRPivotGrid.PrintFieldValue](https://documentation.devexpress.com/) event handler to render vertical headers. Check the previous branches (e.g. [15.1.4+](https://github.com/DevExpress-Examples/Reporting_xrpivotgrid-how-to-draw-vertical-column-headers-t226849/tree/15.1.4+)) for more details regarding this approach.
