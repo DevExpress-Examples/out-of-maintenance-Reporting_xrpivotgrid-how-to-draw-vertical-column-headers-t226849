@@ -2,7 +2,7 @@
 
 * [Form1.cs](./CS/Form1.cs) (VB: [Form1.vb](./VB/Form1.vb))
 
-#Cross Tab Report - How to draw vertical column headers
+# Cross Tab Report - How to draw vertical column headers
 
 The **XRCrossTab** control that is available starting with version 19.2 supports this functionality out of the box. Use the header cells'  [Angle](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.UI.CrossTab.XRCrossTabCell.Angle?v=19.2) property to rotate the text in the cells.
 
